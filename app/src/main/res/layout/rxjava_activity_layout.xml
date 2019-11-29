@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rx_basic"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Rxjava的基础创建_create"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_link_basic"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Rxjava链式的基础创建_create"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_just"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Rxjava链式的基础创建_just"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_just_consumer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Rxjava链式的基础创建_just使用Consumer"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_break_link"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Disposable.dispose()切断观察者 与 被观察者 之间的连接"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_fromArray"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_fromArray"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_fromIterable"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_fromIterable"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_empty"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_empty_nerver_error"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_defer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_defer"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_timer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_timer"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_interval"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_interval"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_intervalRange"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_intervalRange"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_range"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_range"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_map"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_map"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/rx_debounce"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="RxJava_Debounce"
+        android:gravity="center"
+        android:background="#00d8a0"/>
+
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
